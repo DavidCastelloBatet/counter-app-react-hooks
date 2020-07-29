@@ -16,14 +16,14 @@ const PrimeraApp = ({ saludo, edad, subtitulo }) => {
 //Definimos que tipo de props hay que pasar y si es obligatorio
 
 PrimeraApp.propTypes = {
-  saludo: PropTypes.string.isRequired,
-  edad: PropTypes.number,
+  saludo: PropTypes.string.isRequired, //string y obligatorio
+  edad: PropTypes.number, //numero y no obligatorio
 };
+
+//Definir propiedades por defecto
 
 PrimeraApp.defaultProps = {
   subtitulo: "Subtitulo por defecto",
 };
-
-//Definir propiedades por defecto
 
 export default PrimeraApp;

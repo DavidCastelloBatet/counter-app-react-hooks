@@ -19,16 +19,22 @@ const CounterApp = ({ value }) => {
 
   return (
     <>
-      <h1>Counter App</h1>
-      <h2>
-        with <span className="usestate">useState hook</span>
-      </h2>
-      <h2>Initial value: {counter}</h2>
-      <div className="cuadro">
-        <button onClick={handleAdd}>+1</button>
-        <button onClick={handleReset}>Resset</button>
-        <button onClick={handleRest}>-1</button>
-      </div>
+      <header>
+        <h1>Counter App</h1>
+        <h2>
+          with <span className="usestate">useState </span>hook
+        </h2>
+      </header>
+      <section>
+        <h2>
+          Initial value: <span className="counter">{counter}</span>
+        </h2>
+        <div className="cuadro">
+          <button onClick={handleAdd}>+1</button>
+          <button onClick={handleReset}>Reset</button>
+          <button onClick={handleRest}>-1</button>
+        </div>
+      </section>
     </>
   );
 };

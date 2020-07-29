@@ -1,7 +1,55 @@
 html,
 body {
-  background-color: grey;
+  background-color: rgb(214, 214, 214);
   color: white;
   font-size: 1.3rem;
   text-align: center;
+}
+
+header,
+section {
+  background-color: grey;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 2px 2px rgb(129, 119, 117);
+  margin-left: 200px;
+  margin-top: 60px;
+  margin-right: 200px;
+  padding: 5px;
+}
+
+header .usestate {
+  color: black;
+  font-size: 2.5rem;
+  font-style: italic;
+}
+
+section {
+  height: 400px;
+  padding-bottom: 30px;
+}
+section .counter {
+  color: black;
+}
+
+section h2 {
+  font-size: 3rem;
+  margin-bottom: 80px;
+  margin-top: 75px;
+}
+
+section .cuadro {
+  background-color: lightgray;
+  border-radius: 10px;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 20px;
+}
+
+section .cuadro button {
+  background-color: silver;
+  border-radius: 50px;
+  font-size: 1rem;
+  margin-right: 30px;
+  padding: 10px 30px 10px 30px;
 }
